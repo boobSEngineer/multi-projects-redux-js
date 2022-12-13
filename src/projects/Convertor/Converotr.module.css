@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.input_convertor {
+    display: flex;
+}
+
+.input_convertor input {
+    font-size: 16px;
+    border-bottom: 1px solid darkgrey;
+    margin: 0 10px;
+    width: 70px;
+}
+
+
+.button_convertor {
+    display: flex;
+}
+
+.button_convertor button{
+    min-width: 100px;
+    padding: 2px 10px;
+    margin: 3px;
+}
+.output {
+    display: flex;
+}
+.output p{
+    margin-right: 10px;
+}

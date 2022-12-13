@@ -1,0 +1,15 @@
+.error-wrapper {
+    background: #e7186e;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error-p {
+    color: #ffffff;
+    font-size: 24px;
+}
+

@@ -1,0 +1,11 @@
+.element {
+    list-style: none;
+}
+.check:checked + span{
+    text-decoration: line-through;
+}
+
+.delete:hover {
+    color: red;
+    cursor: pointer;
+}

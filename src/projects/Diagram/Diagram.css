@@ -1,0 +1,78 @@
+canvas {
+    width: 600px;
+    height: 300px;
+}
+
+.diagram-wrapper {
+    padding: 10px 90px;
+    margin: 20px auto;
+}
+
+h1{
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.initial {
+    font-size: 16px;
+    overflow-y: hidden;
+    min-width: 250px;
+}
+.list {
+    max-height: 300px;
+    flex-basis: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px 0;
+    padding-top: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*-----------------------------------------------------------scroll*/
+.list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: #b6b6b6;
+}
+.list::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+}
+.list::-webkit-scrollbar-track:hover {
+    background: #e0e0e0;
+}
+
+.list-item {
+    /*border: 2px solid #ef5a5a;*/
+}
+
+.list-item span {
+    font-size: 16px;
+    margin-right: 20px;
+}
+.list-input {
+    font-size: 16px;
+    border-bottom: 1px solid darkgrey;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.item-button {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-button button {
+    min-width: 100px;
+    padding: 5px 16px;
+    margin: 3px;
+}
