@@ -6,7 +6,7 @@ import h from "./Header.module.css";
 const Header = () => {
     return (
         <header>
-            <h2>Switch project( ͡° ͜ʖ ͡°)</h2>
+            <h2>Switch project</h2>
             <div className={h.switch}>
                 <Link to="/">Home</Link>
                 <Link to="/diagram">Diagram</Link>
